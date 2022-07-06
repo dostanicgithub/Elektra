@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektra - Luxury Cars</title>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header container">
+        <a href="index.html" class="logo logo-header">
+            <img src="/assets/icons/logo.png" alt="Website Logo">
+        </a>
+
+        <img src="/assets/icons/hamburger.png" id="hamburger" class="hamburger">
+
+        <nav id="navigation" class="navigation">
+            <ul>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#featured" class="nav-link">Featured</a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main -->
+    <main id="main" class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section spacer">
+            <div class="text-container">
+                <h2 class="hero-subtitle">Choose The Right Car</h2>
+                <h1 class="hero-title">Porsche Mission E</h1>
+
+                <p class="hero-paragraph">
+                    Sports car that covers over 300 miles with superb performance, but without a drop of gasoline? 
+                    Welcome to the future: the Mission E electric concept car.
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img src="/assets/images/hero.png" alt="Picture of a Porsche Mission E Electric Car">
+            </div>
+
+            <div class="specs">
+                <div class="spec">
+                    <div class="spec-icon">
+                        <img src="/assets/icons/speedometer.png">
+                    </div>
+                    <h2 >876</h2>
+                    <h3>Mileage</h3>                        
+                </div>
+
+                <div class="spec">
+                    <div class="spec-icon">
+                        <img src="/assets/icons/battery.png">
+                    </div>
+                    <h2 >100</h2>
+                    <h3>Battery</h3>                        
+                </div>
+
+                <div class="spec">
+                    <div class="spec-icon">
+                        <img src="/assets/icons/temperature.png">
+                    </div>
+                    <h2>23</h2>
+                    <h3>Temp</h3>                        
+                </div>
+            </div>
+
+            <div class="hero-button">
+                <a href="#popular">
+                    <img src="/assets/icons/button.png">
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section spacer">
+            <div class="about-container">
+                <div class="about-group">
+                    <img src="/assets/images/about.png" alt="Picture of a car interior" class="about-image">
+    
+                    <div class="about-description">
+                        <h2>2300+</h2>
+                        
+                        <p>Supercharges placed along popular routes with fast charging to keep you in motion</p>
+                    </div>
+                </div>
+
+                <div class="about-text text-container">
+                    <h2>
+                        Machines with
+                        <br>
+                        Future Technology
+                    </h2>
+    
+                    <p>
+                        All-electric vehicles (EVs), also referred to as battery electric vehicles, 
+                        hav
+                        e an electric motor instead of an internal combustion engine.
+                    </p>
+    
+                    <p>
+                        The vehicle uses a large traction battery pack to power the electric motor and 
+                        must be plugged in to a wall outlet or charging equipment,
+                        also called electric vehicle supply equipment (EVSE).
+                    </p>
+    
+                    <p>
+                        Because it runs on electricity, the vehicle emits no exhaust from a tailpipe and 
+                        does not contain the typical liquid fuel components, 
+                        such as a fuel pump, fuel line, or fuel tank.
+                    </p>
+    
+                    <a href="#features"><button class="button">View More</button></a>
+                </div>  
+            </div>
+        </section>
+
+        <!-- Popular Section -->
+        <section id="popular" class="popular section spacer">
+            <div class="text-container">
+                <h2>
+                    Popular Choices Of
+                    <br> 
+                    The Porsche Brand
+                </h2>
+            </div>
+
+            <div class="popular-container swiper">
+                <div class="swiper-wrapper">
+                    <article class="card swiper-slide"> 
+                        <div>
+                            <h3>Porsche</h3>
+                            <h3>Cayman</h3>
+                        </div>
+
+                        <img src="/assets/images/popular/cayman.png" alt="Picture of a Porsche Electric Car" class="popular-image">
+
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.5</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>345 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>12h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$128,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="card swiper-slide"> 
+                        <div>
+                            <h3>Porsche</h3>
+                            <h3>Taycan</h3>
+                        </div>
+
+                        <img src="/assets/images/popular/taycan.png" alt="Picture of a Porsche Electric Car" class="popular-image">
+
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.2</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>340 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>10h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$125,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="card swiper-slide"> 
+                        <div>
+                            <h3>Porsche</h3>
+                            <h3>Turbo S</h3>
+                        </div>
+
+                        <img src="/assets/images/popular/turbos.png" alt="Picture of a Porsche Electric Car" class="popular-image">
+
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.7</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>350 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>13h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$150,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="card swiper-slide"> 
+                        <div>
+                            <h3>Porsche</h3>
+                            <h3>Turbo S Cross</h3>
+                        </div>
+
+                        <img src="/assets/images/popular/turboscross.png" alt="Picture of a Porsche Electric Car" class="popular-image">
+
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.0</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>325 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>10h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$114,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="card swiper-slide"> 
+                        <div>
+                            <h3>Porsche</h3>
+                            <h3>Boxster 718</h3>
+                        </div>
+
+                        <img src="/assets/images/popular/boxster.png" alt="Picture of a Porsche Electric Car" class="popular-image">
+
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.0</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>365 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>20h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$175,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features section spacer">
+            <div class="text-container">
+                <h2>Advanced Features</h2>
+            </div>
+
+            <div class="features-container">
+                <img src="/assets/images/features.png" alt="Picture of a car" class="features-image">
+
+                <div class="features-card features-card-1">
+                    <h3>360</h3>
+                    <p>
+                        Km
+                        <br>
+                        Range
+                    </p>
+                </div>
+
+                <div class="features-card features-card-2">
+                    <h3>800v</h3>
+                    <p>
+                        Turbo
+                        <br>
+                        Chargin
+                    </p>
+                </div>
+
+                <div class="features-card features-card-3">
+                    <h3>460</h3>
+                    <p>
+                        Km
+                        <br>
+                        Travel
+                    </p>
+                </div>
+            </div>
+
+            <img src="/assets/images/map.svg" class="features-map">
+        </section>
+
+        <!-- Featured Section -->
+        <section id="featured" class="featured section spacer">
+            <div class="text-container">
+                <h2>Featured Luxury Cars</h2>
+            </div>
+
+            <div class="featured-container">
+                <ul class="featured-filters">
+                    <li>
+                        <button class="filter-button featured-active" data-filter="all">
+                            <span>All</span>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="filter-button" data-filter=".tesla">
+                            <img src="/assets/images/tesla.png">
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="filter-button" data-filter=".porsche">
+                            <img src="/assets/images/porsche.png">
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="filter-button" data-filter=".audi">
+                            <img src="/assets/images/audi.png">
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="featured-content">
+                    <article class="featured-card card mix tesla">
+                        <div class="card-titles">
+                            <h3>Tesla</h3>
+                            <h3>Model X</h3>
+                        </div>
+
+                        <img src="/assets/images/teslamodelx.png" class="card-image" alt="Image of a car">
+                        
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.5</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>345 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>12h</h3>
+                            </div>
+                        </div>
+    
+                        <h3>$95,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="featured-card card mix porsche">
+                        <div class="card-titles">
+                            <h3>Porsche</h3>
+                            <h3>Boxster 987</h3>
+                        </div>
+                        
+                        <img src="/assets/images/porsheboxster.png" class="card-image" alt="Image of a car">
+                        
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>4.0</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>375 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>10h</h3>
+                            </div>
+                        </div>
+                        
+                        <h3>$127,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+
+                    <article class="featured-card card mix audi">
+                        <div class="card-titles">
+                            <h3>Audi</h3>
+                            <h3>Tron</h3>
+                        </div>
+                        
+                        <img src="/assets/images/audietron.png" class="card-image" alt="Image of a car">
+                        
+                        <div class="card-specs">
+                            <div class="card-spec">
+                                <img src="/assets/icons/speedometer.png">
+                                <h3>3.2</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/race.png">
+                                <h3>370 km/h</h3>
+                            </div>
+
+                            <div class="card-spec">
+                                <img src="/assets/icons/charge.png">
+                                <h3>11h</h3>
+                            </div>
+                        </div>
+
+                        <h3>$70,900</h3>
+
+                        <button class="card-button"><img src="/assets/icons/card.png"></button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offer Section -->
+        <section id="offer" class="offer section spacer">
+            <div class="offer-container">
+                <img src="/assets/images/offer-bg.png" class="offer-background">
+ 
+                <div class="offer-text text-container">
+                    <h2>Receive Our Special Offer</h2>
+
+                    <p>
+                        Be the first to receive all the information about our 
+                        products and new cars by email by subscribing to our 
+                        mailing list.
+                    </p>
+
+                    <button class="button">Subscribe Now</button>
+                </div>
+
+                <div class="image-container">
+                    <img src="/assets/images/offer.png" class="offer-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos Section -->
+        <section id="logos" class="logos section spacer">
+            <div class="logos-container">
+                <div class="logos-content">
+                    <img src="/assets/images/bmw.png" class="logos-image">
+                </div>
+
+                <div class="logos-content">
+                    <img src="/assets/images/lamborghini.png" class="logos-image">
+                </div>
+
+                <div class="logos-content">
+                    <img src="/assets/images/porsche.png" class="logos-image">
+                </div>
+
+                <div class="logos-content">
+                    <img src="/assets/images/tesla.png" class="logos-image">
+                </div>
+
+                <div class="logos-content">
+                    <img src="/assets/images/audi.png" class="logos-image">
+                </div>
+
+                <div class="logos-content">
+                    <img src="/assets/images/mitsubishi.png" class="logos-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="index.html" class="logo footer-logo">
+                    <img src="/assets/icons/logo.png">
+                </a>
+
+                <p>
+                    We offer the best electric cars of
+                    the most famous brands in
+                    the world.
+                </p>
+            </div>
+
+            <div class="footer-content">
+                <div class="text-container">
+                    <h3>Our Company</h3>
+                </div>
+
+                <ul class="footer-list">
+                    <li>History</li>
+                    <li>Cars</li>
+                    <li>Parts</li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <div class="text-container">
+                    <h3>Information</h3>
+                </div>
+
+                <ul class="footer-list">
+                    <li>Services</li>
+                    <li>Values</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-content">
+                <div class="text-container">
+                    <h3>Follow Us</h3>
+                </div>
+
+                <div class="social-group">
+                    <img src="/assets/icons/facebook.png" class="social-icon">
+
+                    <img src="/assets/icons/twitter.png" class="social-icon">
+    
+                    <img src="/assets/icons/instagram.png" class="social-icon">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Mixitup JS-->
+    <script src="./js/mixitup.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
